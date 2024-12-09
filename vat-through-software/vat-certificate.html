@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0064)https://www.tax.service.gov.uk/vat-through-software/vat-overview -->
+<!-- saved from url=(0067)https://www.tax.service.gov.uk/vat-through-software/vat-certificate -->
 <html lang="en" class="govuk-template ">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Your VAT account - Manage your VAT account - GOV.UK</title>
+  <title>Your VAT Certificate - Manage your VAT account - GOV.UK</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -22,7 +22,8 @@
   <link rel="manifest"
         href="https://www.tax.service.gov.uk/vat-through-software/hmrc-frontend/assets/govuk/manifest.json">
 
-  <style>.cbanner-govuk-heading-m, .cbanner-root-font-size-10px .cbanner-govuk-heading-m {
+  <style>
+    .cbanner-govuk-heading-m, .cbanner-root-font-size-10px .cbanner-govuk-heading-m {
     color: #0b0c0c;
     font-family: "GDS Transport", "nta", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -996,6 +997,7 @@
   <link rel="stylesheet" type="text/css" href="./../styles/vat-v1.8.css">
   <link rel="stylesheet" type="text/css" href="./../styles/btalinks.css">
   <link rel="stylesheet" type="text/css" href="./../styles/print.css">
+
   <meta name="hmrc-timeout-dialog" content="hmrc-timeout-dialog" data-language="" data-timeout="900"
         data-countdown="120" data-keep-alive-url="#" data-sign-out-url="/vat-through-software/time-out"
         data-timeout-url="" data-title="" data-message="" data-message-suffix="" data-keep-alive-button-text=""
@@ -1026,7 +1028,7 @@
       <div class="govuk-header__content">
 
 
-        <a href="/"
+        <a href="./vat-overview.html"
            class="govuk-header__link govuk-header__service-name">
           Manage your VAT account
         </a>
@@ -1043,8 +1045,9 @@
 
     </div>
   </div>
-</header>
 
+
+</header>
 <div class="govuk-width-container">
 
   <div class="govuk-body govuk-!-margin-bottom-0">
@@ -1054,7 +1057,7 @@
 
 
         <li>
-          <a href="./../business-account.html" class="hmrc-account-menu__link">
+          <a href="https://www.tax.service.gov.uk/business-account" class="hmrc-account-menu__link">
             Home
 
 
@@ -1122,8 +1125,14 @@
 
 
       <li class="govuk-breadcrumbs__list-item">
-        <a class="govuk-breadcrumbs__link" href="./../business-account.html">Business tax
+        <a class="govuk-breadcrumbs__link" href="https://www.tax.service.gov.uk/business-account">Business tax
           account</a>
+      </li>
+
+
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="./vat-overview.html">Your
+          VAT account</a>
       </li>
 
 
@@ -1136,211 +1145,162 @@
     <div id="content" class="govuk-!-margin-bottom-6">
 
 
-      <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">Your VAT account</h1>
-      <span class="govuk-caption-m">VAT registration number (VRN): 432453221</span>
+      <h1 class="govuk-heading-xl">
+        Your VAT Certificate
+      </h1>
 
-      <span class="govuk-caption-m">IN SECURE MANAGEMENT LTD</span>
+      <div class="cert-header">
+        <img src="./Your VAT Certificate - Manage your VAT account - GOV.UK_files/HMRC_Logo.png" alt="HMRC Logo">
+      </div>
 
-
-      <div class="govuk-notification-banner govuk-!-margin-top-6" role="region"
-           aria-labelledby="upcoming-penalties-banner" data-module="govuk-notification-banner">
-        <div class="govuk-notification-banner__header">
-          <h2 class="govuk-notification-banner__title" id="upcoming-penalties-banner">
-            Important
+      <div class="card-full-container govuk-grid-column-full">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 id="about-your-registration-heading" class="govuk-heading-m card-heading">
+            About your registration
           </h2>
         </div>
-        <div class="govuk-notification-banner__content">
-          <h3 class="govuk-notification-banner__heading">VAT penalties and interest are changing</h3>
-
-          <p class="govuk-body" id="announcement-information">From January 2023, we’re launching a new penalty system to
-            replace Default Surcharge.</p>
-          <p class="govuk-body" id="date-information">The change affects late returns and late payments for VAT periods
-            starting on or after 1 January 2023.</p>
-          <p class="govuk-body" id="calculation-information">We’re also changing how we calculate interest on late
-            payments and repayment returns.</p>
-
-          <a class="govuk-notification-banner__link"
-             href="https://www.gov.uk/government/collections/vat-penalties-and-interest" rel="noreferrer noopener"
-             target="_blank">
-            Read the guidance on GOV.UK to find out more (opens in a new tab)
-          </a>
-        </div>
-      </div>
+        <div class="govuk-grid-column-full card-full">
 
 
-      <div class="flex-container govuk-grid-row govuk-!-margin-top-6">
+          <dl class="govuk-summary-list govuk-!-margin-bottom-0">
 
-        <div class="tile tile-no-border">
-          <div id="payments" class="tile-body">
-            <h2 class="govuk-heading-m push--top">
-              Next payment due
-            </h2>
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key vrn">
+                VAT registration number (VRN)
+              </dt>
+              <dd class="govuk-summary-list__value vrn vat-cert-value">
+                432453221
+              </dd>
+            </div>
 
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key registration-date">
+                Registration date
+              </dt>
+              <dd class="govuk-summary-list__value registration-date vat-cert-value">
+                16&nbsp;September&nbsp;2022
+              </dd>
+            </div>
 
-            <p class="govuk-body">
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key certificate-date">
+                Certificate date
+              </dt>
+              <dd class="govuk-summary-list__value certificate-date vat-cert-value">
+                6&nbsp;December&nbsp;2024
+              </dd>
+            </div>
+          </dl>
 
-              No payments due right now
-
-
-            </p>
-
-            <p class="govuk-body">
-              <a class="govuk-link" href="what-you-owe.html">
-                Check what you owe
-              </a>
-            </p>
-
-
-          </div>
-        </div>
-
-
-        <div class="tile tile-no-border">
-          <div id="next-return" class="tile-body">
-            <h2 class="govuk-heading-m push--top">Next return due
-            </h2>
-            <p class="govuk-body">
-
-              7&nbsp;February&nbsp;2025
-
-
-            </p>
-
-
-            <p class="govuk-body">
-              <a class="govuk-link" id="vat-returns-link"
-                 href="./vat-returns/return-deadlines.html">
-                View return deadlines
-              </a></p>
-
-
-          </div>
-        </div>
-
-
-        <div class="tile tile-no-border">
-          <div id="history" class="tile-body">
-            <h2 class="govuk-heading-m push--top">History</h2>
-            <ul class="govuk-list">
-              <li>
-
-                <p class="govuk-body">
-                  <a class="govuk-link" href="./payment-history.html">
-                    View past payments
-                  </a>
-                </p>
-
-              </li>
-
-              <li>
-                <p class="govuk-body">
-                  <a class="govuk-link"
-                     href="https://www.tax.service.gov.uk/vat-through-software/vat-returns/submitted">
-                    View past returns
-                  </a>
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      <div>
-        <h2 class="govuk-heading-l">Manage your VAT</h2>
-      </div>
-
-      <div class="govuk-grid-row govuk-!-margin-bottom-4">
-        <div class="govuk-grid-column-one-third">
-
-          <div class="column-one-third" id="update-vat-details">
-
-            <h3 class="govuk-heading-s govuk-!-margin-bottom-1">
-              <a class="govuk-link" href="./account/change-business-details.html">
-              Your business details</a>
-            </h3>
-
-            <p class="govuk-body">Change your business details or VAT Return dates.</p>
-
-          </div>
-
-        </div>
-
-        <div class="govuk-grid-column-one-third">
-
-          <div class="column-one-third" id="payments-and-repayments">
-
-            <h3 class="govuk-heading-s govuk-!-margin-bottom-1">
-              <a class="govuk-link" href="https://www.tax.service.gov.uk/vat-repayment-tracker/manage-or-track-vrt">
-                Payments and repayments
-              </a>
-            </h3>
-            <p class="govuk-body">Manage your Direct Debit, repayment bank account details and track what HMRC owes
-              you.</p>
-
-          </div>
-
-        </div>
-
-        <div class="govuk-grid-column-one-third">
-
-          <div id="vat-certificate">
-
-            <h3 class="govuk-heading-s govuk-!-margin-bottom-1">
-              <a class="govuk-link" href="./vat-certificate.html">
-                View VAT certificate</a>
-            </h3>
-
-            <p class="govuk-body">View and print your VAT certificate.</p>
-
-          </div>
 
         </div>
       </div>
 
-      <div class="govuk-grid-row">
+      <div class="card-full-container govuk-grid-column-full">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 id="about-the-business-heading" class="govuk-heading-m card-heading">About the business</h2>
+        </div>
+        <div class="govuk-grid-column-full card-full">
 
-        <div class="govuk-grid-column-one-third">
 
+          <dl class="govuk-summary-list govuk-!-margin-bottom-0">
 
-          <div id="cancel-vat">
-            <h3 class="govuk-heading-s govuk-!-margin-bottom-1">
-              <a class="govuk-link" href="https://www.tax.service.gov.uk/vat-through-software/account/cancel-vat">Cancel
-                VAT registration</a>
-            </h3>
-            <p class="govuk-body">Cancel your VAT registration if you’re closing the business, transferring ownership or
-              do not need to be VAT registered.</p>
-          </div>
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key business-name">
+                Business name
+              </dt>
+              <dd class="govuk-summary-list__value business-name vat-cert-value">
+                IN SECURE MANAGEMENT LTD
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key trading-name">
+                Trading name
+              </dt>
+              <dd class="govuk-summary-list__value trading-name vat-cert-value">
+                Not provided
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key business-type">
+                Business type
+              </dt>
+              <dd class="govuk-summary-list__value business-type vat-cert-value">
+                UK Company
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key trade-classification">
+                Trade classification (SIC code)
+              </dt>
+              <dd class="govuk-summary-list__value trade-classification vat-cert-value">
+                62020
+              </dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key ppob">
+                Principal place of business address
+              </dt>
+              <dd class="govuk-summary-list__value ppob vat-cert-value">
+                A1 4 Higher Swan Lane<br>Bolton<br>BL3 3AQ
+
+              </dd>
+            </div>
+          </dl>
 
 
         </div>
-
-
-        <div class="govuk-grid-column-one-third">
-
-          <div class="column-one-third" id="view-penalties-details">
-            <h3 class="govuk-heading-s govuk-!-margin-bottom-1" id="penalties-heading">
-              <a class="govuk-link" href="https://www.tax.service.gov.uk/penalties" id="penalties-link">Penalties for
-                late VAT Returns and payments</a>
-            </h3>
-            <p class="govuk-body" id="penalties-section-body">View your penalties, make an appeal against a penalty and
-              see the status of any current appeals.</p>
-          </div>
-        </div>
-
       </div>
+
+
+      <div class="card-full-container govuk-grid-column-full">
+        <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-m card-heading">Return details</h2>
+
+
+          <dl class="govuk-summary-list govuk-summary-list--no-border govuk-!-margin-bottom-0 govuk-!-padding-bottom-3">
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key stp">
+                VAT Return dates
+              </dt>
+              <dd class="govuk-summary-list__value stp">
+                March, June, September and December
+              </dd>
+            </div>
+          </dl>
+
+
+        </div>
+      </div>
+
+
+      <button type="submit" class="govuk-button" data-module="govuk-button" onclick="javascript:window.print()"
+              id="print-button">
+        Print certificate
+      </button>
+
+
+      <p class="govuk-body govuk-!-margin-top-5 govuk-!-margin-bottom-8">
+        <a class="govuk-link" href="https://www.tax.service.gov.uk/ask-hmrc/chat/vat-online?ds" target="_blank"
+           id="webchatLink-id">Ask HMRC (opens in a new tab)</a>
+      </p>
+
 
     </div>
 
 
     <a lang="en" hreflang="en" class="govuk-link hmrc-report-technical-issue " rel="noreferrer noopener" target="_blank"
-       href="https://www.tax.service.gov.uk/contact/report-technical-problem?newTab=true&amp;service=VATVC&amp;referrerUrl=https%3A%2F%2Fwww.tax.service.gov.uk%2Fvat-through-software%2Fvat-overview">Is
+       href="https://www.tax.service.gov.uk/contact/report-technical-problem?newTab=true&amp;service=VATVC&amp;referrerUrl=https%3A%2F%2Fwww.tax.service.gov.uk%2Fvat-through-software%2Fvat-certificate">Is
       this page not working properly? (opens in new tab)</a>
 
 
   </main>
 </div>
-
 <footer class="govuk-footer" role="contentinfo">
   <div class="govuk-width-container">
 
@@ -1360,7 +1320,7 @@
 
           <li class="govuk-footer__inline-list-item">
             <a class="govuk-footer__link"
-               href="https://www.tax.service.gov.uk/accessibility-statement/vat-through-software?referrerUrl=https%3A%2F%2Fwww.tax.service.gov.uk%2Fvat-through-software%2Fvat-overview">
+               href="https://www.tax.service.gov.uk/accessibility-statement/vat-through-software?referrerUrl=https%3A%2F%2Fwww.tax.service.gov.uk%2Fvat-through-software%2Fvat-certificate">
               Accessibility statement
             </a>
           </li>
@@ -1397,6 +1357,7 @@
 
         </ul>
 
+
         <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 483.2 195.7" height="17" width="41">
           <path fill="currentColor"
@@ -1419,6 +1380,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
