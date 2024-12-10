@@ -170,7 +170,7 @@
     width: 36px;
     height: 28px;
     background: url(/assets/frontend/govuk_publishing_components/action-link-arrow--light-9a6b22fca25fd12268c0e3f2b27c57bd92478b95a0a8aab0631d4a8e6e5964a6.png);
-    background: url(../static/assets/action-link-arrow--light.svg), linear-gradient(transparent, transparent);
+    background: url(../../static/assets/action-link-arrow--light.svg), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-size: 28px auto;
     background-position: 0 0
