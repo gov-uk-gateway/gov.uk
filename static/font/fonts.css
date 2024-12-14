@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Bold.eot');
+    src: local('Cabrion Bold'), local('Cabrion-Bold'),
+        url('Cabrion-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Bold.woff2') format('woff2'),
+        url('Cabrion-Bold.woff') format('woff'),
+        url('Cabrion-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Medium.eot');
+    src: local('Cabrion Medium'), local('Cabrion-Medium'),
+        url('Cabrion-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Medium.woff2') format('woff2'),
+        url('Cabrion-Medium.woff') format('woff'),
+        url('Cabrion-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-MediumItalic.eot');
+    src: local('Cabrion Medium Italic'), local('Cabrion-MediumItalic'),
+        url('Cabrion-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-MediumItalic.woff2') format('woff2'),
+        url('Cabrion-MediumItalic.woff') format('woff'),
+        url('Cabrion-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Thin.eot');
+    src: local('Cabrion Thin'), local('Cabrion-Thin'),
+        url('Cabrion-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Thin.woff2') format('woff2'),
+        url('Cabrion-Thin.woff') format('woff'),
+        url('Cabrion-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-BlackItalic.eot');
+    src: local('Cabrion Black Italic'), local('Cabrion-BlackItalic'),
+        url('Cabrion-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-BlackItalic.woff2') format('woff2'),
+        url('Cabrion-BlackItalic.woff') format('woff'),
+        url('Cabrion-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Black.eot');
+    src: local('Cabrion Black'), local('Cabrion-Black'),
+        url('Cabrion-Black.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Black.woff2') format('woff2'),
+        url('Cabrion-Black.woff') format('woff'),
+        url('Cabrion-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-SemiBoldItalic.eot');
+    src: local('Cabrion SemiBold Italic'), local('Cabrion-SemiBoldItalic'),
+        url('Cabrion-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-SemiBoldItalic.woff2') format('woff2'),
+        url('Cabrion-SemiBoldItalic.woff') format('woff'),
+        url('Cabrion-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-ThinItalic.eot');
+    src: local('Cabrion Thin Italic'), local('Cabrion-ThinItalic'),
+        url('Cabrion-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-ThinItalic.woff2') format('woff2'),
+        url('Cabrion-ThinItalic.woff') format('woff'),
+        url('Cabrion-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-SemiBold.eot');
+    src: local('Cabrion SemiBold'), local('Cabrion-SemiBold'),
+        url('Cabrion-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-SemiBold.woff2') format('woff2'),
+        url('Cabrion-SemiBold.woff') format('woff'),
+        url('Cabrion-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Italic.eot');
+    src: local('Cabrion Italic'), local('Cabrion-Italic'),
+        url('Cabrion-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Italic.woff2') format('woff2'),
+        url('Cabrion-Italic.woff') format('woff'),
+        url('Cabrion-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-LightItalic.eot');
+    src: local('Cabrion Light Italic'), local('Cabrion-LightItalic'),
+        url('Cabrion-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-LightItalic.woff2') format('woff2'),
+        url('Cabrion-LightItalic.woff') format('woff'),
+        url('Cabrion-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-BoldItalic.eot');
+    src: local('Cabrion Bold Italic'), local('Cabrion-BoldItalic'),
+        url('Cabrion-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-BoldItalic.woff2') format('woff2'),
+        url('Cabrion-BoldItalic.woff') format('woff'),
+        url('Cabrion-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Regular.eot');
+    src: local('Cabrion Regular'), local('Cabrion-Regular'),
+        url('Cabrion-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Regular.woff2') format('woff2'),
+        url('Cabrion-Regular.woff') format('woff'),
+        url('Cabrion-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabrion';
+    src: url('Cabrion-Light.eot');
+    src: local('Cabrion Light'), local('Cabrion-Light'),
+        url('Cabrion-Light.eot?#iefix') format('embedded-opentype'),
+        url('Cabrion-Light.woff2') format('woff2'),
+        url('Cabrion-Light.woff') format('woff'),
+        url('Cabrion-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

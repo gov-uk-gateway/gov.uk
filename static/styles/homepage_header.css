@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Cabrion';
-    src: local('Cabrion Bold'), local('Cabrion-Bold'),
-    url('../font/Cabrion-Bold.woff2') format('woff2'),
-    url('../font/Cabrion-Bold.woff') format('woff'),
-    url('../font/Cabrion-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
 .homepage-header {
     background-color: #1d70b8;
     padding-bottom: 28px;

@@ -14,16 +14,6 @@
     text-underline-offset: .1578em
 }
 
-@font-face {
-    font-family: 'Cabrion';
-    src: local('Cabrion Bold'), local('Cabrion-Bold'),
-    url('../font/Cabrion-Bold.woff2') format('woff2'),
-    url('../font/Cabrion-Bold.woff') format('woff'),
-    url('../font/Cabrion-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
 /*! Copyright (c) 2011 by Margaret Calvert & Henrik Kubel. All rights reserved. The font has been customised for exclusive use on gov.uk. This cut is not commercially available. */
 @font-face {
     font-family: "Cabrion";

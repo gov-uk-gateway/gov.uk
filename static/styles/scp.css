@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'Cabrion';
-    src: local('Cabrion Bold'), local('Cabrion-Bold'),
-    url('../font/Cabrion-Bold.woff2') format('woff2'),
-    url('../font/Cabrion-Bold.woff') format('woff'),
-    url('../font/Cabrion-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
 
 #cy:target, #cy:target main {
   display: block;
