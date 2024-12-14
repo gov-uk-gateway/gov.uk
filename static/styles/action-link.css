@@ -20,6 +20,16 @@
     }
 }
 
+@font-face {
+    font-family: 'Cabrion';
+    src: local('Cabrion Bold'), local('Cabrion-Bold'),
+    url('../font/Cabrion-Bold.woff2') format('woff2'),
+    url('../font/Cabrion-Bold.woff') format('woff'),
+    url('../font/Cabrion-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 .gem-c-action-link__contents-wrapper {
     display: table-cell;
     vertical-align: middle
@@ -28,7 +38,7 @@
 .gem-c-action-link__link-wrapper {
     display: table-cell;
     vertical-align: middle;
-    font-family: "GDS Transport", arial, sans-serif;
+    font-family: "Cabrion", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
