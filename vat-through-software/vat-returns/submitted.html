@@ -34,6 +34,11 @@
         data-synchronise-tabs="" data-hide-sign-out-button="">
   <meta property="og:image"
         content="/vat-through-software/vat-returns/hmrc-frontend/assets/govuk/images/govuk-opengraph-image.png">
+  <style>
+    .govuk-tabs__list-item {
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body class="govuk-template__body  js-enabled govuk-frontend-supported">
 <header>
@@ -127,100 +132,89 @@
             <ul class="govuk-tabs__list" role="tablist">
               <li class="govuk-tabs__list-item govuk-tabs__list-item--selected" role="presentation">
                 <a class="govuk-tabs__tab"
-                   id="tab_submitted-return-tab-2024" role="tab" aria-controls="submitted-return-tab-2024"
-                   aria-selected="true" tabindex="0">
+                   id="tab_submitted-return-tab-2025" role="tab"
+                   aria-controls="submitted-return-tab-2025" aria-selected="true" tabindex="0">
+                  2025
+                </a>
+              </li>
+              <li class="govuk-tabs__list-item" role="presentation">
+                <a class="govuk-tabs__tab"
+                   id="tab_submitted-return-tab-2024" role="tab"
+                   aria-controls="submitted-return-tab-2024" aria-selected="false" tabindex="-1">
                   2024
                 </a>
               </li>
               <li class="govuk-tabs__list-item" role="presentation">
                 <a class="govuk-tabs__tab"
-                   id="tab_submitted-return-tab-2023" role="tab" aria-controls="submitted-return-tab-2023"
-                   aria-selected="false" tabindex="-1">
+                   id="tab_submitted-return-tab-2023" role="tab"
+                   aria-controls="submitted-return-tab-2023" aria-selected="false" tabindex="-1">
                   2023
                 </a>
               </li>
-              <li class="govuk-tabs__list-item" role="presentation">
-                <a class="govuk-tabs__tab"
-                   id="tab_submitted-return-tab-2022" role="tab" aria-controls="submitted-return-tab-2022"
-                   aria-selected="false" tabindex="-1">
-                  2022
-                </a>
-              </li>
             </ul>
-            <div class="govuk-tabs__panel" id="submitted-return-tab-2024" role="tabpanel"
-                 aria-labelledby="tab_submitted-return-tab-2024">
+            <div class="govuk-tabs__panel" id="submitted-return-tab-2025" role="tabpanel"
+                 aria-labelledby="tab_submitted-return-tab-2025">
+              <h2 class="govuk-heading-m">2025 returns</h2>
+              <p class="govuk-body">You have not submitted any returns using the new VAT service this
+                year.</p>
+              <ul class="govuk-list govuk-list--bullet">
+              </ul>
+            </div>
+            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="submitted-return-tab-2024"
+                 role="tabpanel" aria-labelledby="tab_submitted-return-tab-2024">
               <h2 class="govuk-heading-m">2024 returns</h2>
               <p class="govuk-body" aria-hidden="true">For the period:</p>
               <ul class="govuk-list govuk-list--bullet">
                 <li>
                   <a class="govuk-body govuk-link"
-                     href="submitted/2024/24C1.html">
+                     href="#">
                     <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;July to 30&nbsp;September&nbsp;2024
+                    1&nbsp;September
+                    to
+                    30&nbsp;November&nbsp;2024
                   </a>
                 </li>
                 <li>
                   <a class="govuk-body govuk-link"
-                     href="./submitted/2024/24C2.html">
+                     href="#">
                     <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;April to 30&nbsp;June&nbsp;2024
+                    1&nbsp;June
+                    to
+                    31&nbsp;August&nbsp;2024
                   </a>
                 </li>
                 <li>
                   <a class="govuk-body govuk-link"
-                     href="./submitted/2024/24C1.html">
+                     href="#">
                     <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;January to 31&nbsp;March&nbsp;2024
+                    1&nbsp;March
+                    to
+                    31&nbsp;May&nbsp;2024
+                  </a>
+                </li>
+                <li>
+                  <a class="govuk-body govuk-link"
+                     href="#">
+                    <span class="govuk-visually-hidden">View return for the period</span>
+                    19&nbsp;October&nbsp;2023
+                    to
+                    29&nbsp;February&nbsp;2024
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="submitted-return-tab-2023" role="tabpanel"
-                 aria-labelledby="tab_submitted-return-tab-2023">
+            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="submitted-return-tab-2023"
+                 role="tabpanel" aria-labelledby="tab_submitted-return-tab-2023">
               <h2 class="govuk-heading-m">2023 returns</h2>
-              <p class="govuk-body" aria-hidden="true">For the period:</p>
-              <ul class="govuk-list govuk-list--bullet">
-                <li>
-                  <a class="govuk-body govuk-link"
-                     href="#">
-                    <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;October to 31&nbsp;December&nbsp;2023
-                  </a>
-                </li>
-                <li>
-                  <a class="govuk-body govuk-link"
-                     href="#">
-                    <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;July to 30&nbsp;September&nbsp;2023
-                  </a>
-                </li>
-                <li>
-                  <a class="govuk-body govuk-link"
-                     href="#">
-                    <span class="govuk-visually-hidden">View return for the period</span>
-                    1&nbsp;April to 30&nbsp;June&nbsp;2023
-                  </a>
-                </li>
-                <li>
-                  <a class="govuk-body govuk-link"
-                     href="#">
-                    <span class="govuk-visually-hidden">View return for the period</span>
-                    16&nbsp;September&nbsp;2022 to 31&nbsp;March&nbsp;2023
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="submitted-return-tab-2022" role="tabpanel"
-                 aria-labelledby="tab_submitted-return-tab-2022">
-              <h2 class="govuk-heading-m">2022 returns</h2>
-              <p class="govuk-body">You have not submitted any returns using the new VAT service this year.</p>
+              <p class="govuk-body">You have not submitted any returns using the new VAT service this
+                year.</p>
               <ul class="govuk-list govuk-list--bullet">
               </ul>
             </div>
           </div>
           <p class="govuk-body govuk-!-margin-top-8 govuk-!-margin-bottom-8">
-            <a class="govuk-link" href="#" target="_blank"
-               id="webchatLink-id">Ask HMRC (opens in a new tab)</a>
+            <a class="govuk-link" href="#"
+               target="_blank" id="webchatLink-id">Ask HMRC (opens in a new tab)</a>
           </p>
         </div>
         <a lang="en" hreflang="en" class="govuk-link hmrc-report-technical-issue " rel="noreferrer noopener"

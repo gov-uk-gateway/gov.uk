@@ -1,6 +1,6 @@
+const returnTabHeader2025 = document.getElementById('tab_submitted-return-tab-2025');
 const returnTabHeader2024 = document.getElementById('tab_submitted-return-tab-2024');
 const returnTabHeader2023 = document.getElementById('tab_submitted-return-tab-2023');
-const returnTabHeader2022 = document.getElementById('tab_submitted-return-tab-2022');
 
 const selectTabSelector = 'govuk-tabs__list-item--selected';
 const hiddenTabSelector = 'govuk-tabs__panel--hidden';
@@ -15,14 +15,14 @@ function handleTab(visibleYear, unvisibleYears) {
   })
 }
 
+returnTabHeader2025.addEventListener('click', (e) => {
+  handleTab('2025', ['2023', '2024'])
+})
+
 returnTabHeader2024.addEventListener('click', (e) => {
-  handleTab('2024', ['2023', '2022'])
+  handleTab('2024', ['2023', '2025'])
 })
 
 returnTabHeader2023.addEventListener('click', (e) => {
-  handleTab('2023', ['2024', '2022'])
-})
-
-returnTabHeader2022.addEventListener('click', (e) => {
-  handleTab('2022', ['2023', '2024'])
+  handleTab('2023', ['2024', '2025'])
 })
